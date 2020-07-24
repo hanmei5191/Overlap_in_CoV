@@ -11,7 +11,7 @@ In coronaviruses (CoV), ORF1b is translated via -1 frameshifting from the ORF1a 
 We defined the overlap between ORF1a and ORF1b as the nt stretching from the "C" in the slippery site "TTTAAAC" to the last nt in ORF1a stop codon. This is shown below: 
 ![](Figures/Fig.1A.jpg)
 
-To cover as many CoV sequences as possible, we pulled all nt entries under the [_Coronaviridae_](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=11118&lvl=3&lin=f&keep=1&srchmode=1&unlock) family on NCBI Taxonomy, which covers _Coronavirinae_ , _Orthocoronavirinae_ , and unclassified _Coronaviridae_. Under _Orthocoronavirinae_ are the commonly investigated CoV genera— _Alpha-_ , _Beta-_ , _Delta-_ , and _Gammacoronavirus_. The request was last done on May 5, 2020, which gave us 35,152 sequences. We removed sequences: 
+To cover as many CoV sequences as possible, we pulled all nt entries under the [_Coronaviridae_](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=11118&lvl=3&lin=f&keep=1&srchmode=1&unlock) family on NCBI Taxonomy, which covers _Coronavirinae_, _Orthocoronavirinae_, and unclassified _Coronaviridae_. Under _Orthocoronavirinae_ are the commonly investigated CoV genera—_Alpha-_, _Beta-_, _Delta-_, and _Gammacoronavirus_. The request was last done on May 5, 2020, which gave us 35,152 sequences. We removed sequences: 
 - with nt length shorter than 14,945 nt, 
 - or containing no annotation information, 
 - or containing gaps in the overlap, 
@@ -20,7 +20,7 @@ and ended up with 4,904 sequences for downstream analyses.
 
 ### Overlap length is group specific—the (7, 16, 22, 25, 31 nt) rule 
 
-We found that the length of the ORF1a and ORF1b overlap is group specific. All _Deltacoronavirus_ have an overlap length of 7 nt. Within _Betacoronavirus_ , _Hibecovirus_ and _Sarbecovirus_ contain 16 nt in the overlap; _Embecovirus_ and _Merbecovirus_ have 22 nt; and for _Nobecovirus_ , the length is 25 nt. For _Alphacoronavirus_ and _Gammacoronavirus_ , they both contain 31 nt in the overlap. There are 71 unclassified CoV sequences, while each of these has its overlap length falling into the (7, 16, 22, 25, 31 nt) set. 
+We found that the length of the ORF1a and ORF1b overlap is group specific. All _Deltacoronavirus_ have an overlap length of 7 nt. Within _Betacoronavirus_, _Hibecovirus_ and _Sarbecovirus_ contain 16 nt in the overlap; _Embecovirus_ and _Merbecovirus_ have 22 nt; and for _Nobecovirus_, the length is 25 nt. For _Alphacoronavirus_ and _Gammacoronavirus_, they both contain 31 nt in the overlap. There are 71 unclassified CoV sequences, while each of these has its overlap length falling into the (7, 16, 22, 25, 31 nt) set. 
 
 The distribution of the overlap length is shown in the table and the histogram below: 
 
@@ -37,7 +37,7 @@ The distribution of the overlap length is shown in the table and the histogram b
 
 ### 7-nt is the ancestral state
 
-Phylogenetic analyses have reported _Deltacoronavirus_ as an early split-off from the _Coronavirinae_ lineage, then _Alphacoronavirus_ , the four subgenera in _Betacoronavirus_ , and _Gammacoronavirus_ form distinct clades. The figure below shows this evolutionary relationship by using one RefSeq record as a genus/subgenus representative. 
+Phylogenetic analyses have reported _Deltacoronavirus_ as an early split-off from the _Coronavirinae_ lineage, then _Alphacoronavirus_, the four subgenera in _Betacoronavirus_, and _Gammacoronavirus_ form distinct clades. The figure below shows this evolutionary relationship by using one RefSeq record as a genus/subgenus representative. 
 
 ![](Figures/Fig.2.jpg)
 
