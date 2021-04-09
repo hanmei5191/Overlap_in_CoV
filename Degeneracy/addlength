@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ x$3 == x ]
+then
+	echo "Usage: `basename $0` <length table> <todo> <key column>"
+	echo "Todo : add ctg lenght to out table."
+	echo
+	exit
+fi
+awk 'BEGIN{while(getline<"'$1'"){t=$1;$1="";sz[t]=$0;gsub(/^[ \t]+/,"",sz[t])}} {print $0"\t"sz[$'$3']}' $2
