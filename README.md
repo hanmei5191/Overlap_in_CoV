@@ -4,6 +4,9 @@ Han Mei and Anton Nekrutenko
 
 Department of Biochemistry and Molecular Biology, The Pennsylvania State University
 
+This paper has been published: 
+Molecular Biology and Evolution, Volume 38, Issue 12, December 2021, Pages 5678–5684, https://doi.org/10.1093/molbev/msab265
+
 In coronaviruses (CoV), ORF1b is translated via -1 frameshifting from the ORF1a frame 0. This process generates a overlap between these two ORFs. We have performed analysis in the overlap region between ORF1a and ORF1b in the _Coronaviridae_ family. We found that: 
 - at the genus/subgenus level, the length of the overlap is group specific, 
 - between different genera/subgenera, the change of the overlap nt is marked by "GTA" insertions and "TCT"-like deletions. 
